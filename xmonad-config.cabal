@@ -44,6 +44,9 @@ executable xmonad-config
     , time
     , unliftio
     , with-utf8
+    , xmonad
+    , xmonad-contrib
+    , X11
 
   mixins:
     base hiding (Prelude),
